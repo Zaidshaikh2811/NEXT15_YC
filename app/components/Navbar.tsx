@@ -6,7 +6,7 @@ const Navbar = async () => {
     const session = await auth();
 
     return (
-        <div className='px-5 py-3 bg-white shadow-sm font-work-sans'>
+        <div className='px-5 py-3 bg-white text-black shadow-sm font-work-sans'>
             <nav className='flex justify-between items-center'>
                 <Link href='/'>
                     <h1>YC Directory</h1>
